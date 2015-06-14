@@ -1,0 +1,26 @@
+{
+	"name": "LarpManager/views/utilisateurs.waComponent",
+	"version": "1.0.0",
+	"webComponent": "views/utilisateurs.waComponent/utilisateurs.js",
+	"loadDependencies": [
+		{
+			"id": "Widget/dataGrid",
+			"type": "widget"
+		},
+		{
+			"id": "views/utilisateurs.waComponent/utilisateurs.html",
+			"path": "WEBFOLDER",
+			"type": "html"
+		},
+		{
+			"id": "views/utilisateurs.waComponent/utilisateurs.css",
+			"path": "WEBFOLDER",
+			"type": "style"
+		},
+		{
+			"id": "views/utilisateurs.waComponent/utilisateurs.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		}
+	]
+}

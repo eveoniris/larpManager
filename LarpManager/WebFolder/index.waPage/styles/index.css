@@ -3,18 +3,180 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-body {
-	margin: 0;
-	padding : 20px;
+#richText4 {
+	z-index: 12;
+	height: 13px;
+	bottom: 0px;
+	left: 0px;
+	right: 122px;
+	position: absolute;
 }
 
-#MainTitle {
+#richText3 {
 	z-index: 1;
-	height : 100px;
-	font-size : 2em;
-	text-align : center;
-	border : 1px solid #000;
-	padding : 10px;
-	background-color :DarkOrange;
+	width: 110px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem3 {
+	z-index: 3;
+	width: 110px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText2 {
+	z-index: 1;
+	width: 109px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem2 {
+	z-index: 2;
+	width: 110px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText1 {
+	z-index: 1;
+	width: 109px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem1 {
+	z-index: 1;
+	width: 110px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuBar1 {
+	z-index: 11;
+	top: 90px;
+	bottom: 90px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+#page {
+	z-index: 1;
+	top: 10px;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	position: absolute;
+}
+
+#MenuContainer {
+	z-index: 8;
+	width: 263px;
+	height: 940px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#ContentContainer {
+	z-index: 9;
+	width: 780px;
+	height: 940px;
+	top: 0px;
+	left: 263px;
+	position: absolute;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: transparent;
+	border-top-width: 0px;
+	border-left-color: transparent;
+	border-left-width: 0px;
+	border-right-color: transparent;
+	border-right-width: 0px;
+	border-bottom-color: transparent;
+	border-bottom-width: 0px;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+#Titre {
+	z-index: 4;
+	height: 60px;
+	top: 0px;
+	left: 10px;
+	right: 10px;
+	position: absolute;
+	text-align: center;
+	font-size: 33px;
+}
+
+#Login {
+	z-index: 5;
+	width: 243px;
+	height: 30px;
+	top: 60px;
+	left: 10px;
+	position: absolute;
+	border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	border-top-color: transparent;
+	border-top-style: none;
+	border-top-width: 0px;
+	border-left-color: transparent;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0px;
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px -10px;
+	 -moz-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px -10px;
+	 box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px -10px;
+	box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px -10px;
+}
+
+#contentComponent {
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
 }
 

@@ -8,7 +8,27 @@
 			"type": "core"
 		},
 		{
+			"id": "Widget/container",
+			"type": "widget"
+		},
+		{
 			"id": "Widget/richText",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/login",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/component",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/menuBar",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/menuItem",
 			"type": "widget"
 		},
 		{
@@ -24,6 +44,11 @@
 			"id": "application.css",
 			"path": "WEBFOLDER",
 			"type": "style"
+		},
+		{
+			"id": "index.waPage/scripts/index.js",
+			"path": "WEBFOLDER",
+			"type": "script"
 		}
 	]
 }

@@ -1,1114 +1,2218 @@
+
 {
-	"toJSON": true,
-	"extraProperties": {
-		"version": "2",
-		"classes": {
-			"Pays": {
-				"panelColor": "#548DD4",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 368,
-						"Y": 38
+	"toJSON" : true,
+	"extraProperties" : 
+	{
+		"version" : "2",
+		"classes" : 
+		{
+			"Pays" : 
+			{
+				"panelColor" : "#548DD4",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 368,
+						"Y" : 38
 					}
 				}
 			},
-			"Chronologie": {
-				"panelColor": "#76923C",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 74,
-						"Y": 26
+			"Chronologie" : 
+			{
+				"panelColor" : "#76923C",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 74,
+						"Y" : 26
 					}
 				}
 			},
-			"Fief": {
-				"panelColor": "#C4BD97",
-				"panel": {
-					"pathVisible": true,
-					"isOpen": "true",
-					"position": {
-						"X": 962,
-						"Y": 5
+			"Fief" : 
+			{
+				"panelColor" : "#C4BD97",
+				"panel" : 
+				{
+					"pathVisible" : true,
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 962,
+						"Y" : 5
 					}
 				}
 			},
-			"Ressource": {
-				"panelColor": "#C3D69B",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 353,
-						"Y": 749
+			"Ressource" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 353,
+						"Y" : 749
 					}
 				}
 			},
-			"Exportation": {
-				"panelColor": "#C3D69B",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 49,
-						"Y": 498
+			"Exportation" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 49,
+						"Y" : 498
 					}
 				}
 			},
-			"Culte": {
-				"panelColor": "#D7E3BC",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 1087,
-						"Y": 398
+			"Culte" : 
+			{
+				"panelColor" : "#D7E3BC",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1087,
+						"Y" : 398
+					}
+				},
+				"attributes" : 
+				{
+					"couleur" : 
+					{
+						"note" : "La couleur représentative du culte (par exemple : \"blanc sur noir\")"
+					},
+					"symbole" : 
+					{
+						"note" : "Le symbole représentatif du culte. Par exemple \"Aigle à l'éclair fourchu\"."
 					}
 				}
 			},
-			"PaysCulte": {
-				"panelColor": "#fff",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 828,
-						"Y": 386
+			"PaysCulte" : 
+			{
+				"panelColor" : "#fff",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 828,
+						"Y" : 383
 					}
 				}
 			},
-			"Priere": {
-				"panelColor": "#D8D8D8",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 1521,
-						"Y": 677
+			"Priere" : 
+			{
+				"panelColor" : "#D8D8D8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1492,
+						"Y" : 616
 					}
 				}
 			},
-			"CultePriere": {
-				"panelColor": "#CCC1D9",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 1568,
-						"Y": 414
+			"CultePriere" : 
+			{
+				"panelColor" : "#CCC1D9",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1493,
+						"Y" : 437
 					}
 				}
 			},
-			"Sphere": {
-				"panelColor": "#70CCC2",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 1260,
-						"Y": 1036
+			"Sphere" : 
+			{
+				"panelColor" : "#70CCC2",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1334,
+						"Y" : 875
 					}
 				}
 			},
-			"CulteSphere": {
-				"panelColor": "#CCC1D9",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 1289,
-						"Y": 873
+			"CulteSphere" : 
+			{
+				"panelColor" : "#CCC1D9",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1104,
+						"Y" : 874
 					}
 				}
 			},
-			"Sacrifice": {
-				"panelColor": "#E5B9B7",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 792,
-						"Y": 797
+			"Sacrifice" : 
+			{
+				"panelColor" : "#E5B9B7",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 792,
+						"Y" : 797
 					}
 				}
 			},
-			"Importation": {
-				"panelColor": "#BFBFBF",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 791,
-						"Y": 574
+			"Importation" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 791,
+						"Y" : 574
 					}
 				}
 			},
-			"Production": {
-				"panelColor": "#548DD4",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 1606,
-						"Y": 95
+			"Production" : 
+			{
+				"panelColor" : "#548DD4",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1327,
+						"Y" : 22
 					}
 				}
 			},
-			"Groupe": {
-				"panelColor": "#B7DDE8",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 2047,
-						"Y": 432
+			"Groupe" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1599,
+						"Y" : 86
 					}
 				}
 			},
-			"Joueur": {
-				"panelColor": "#7F7F7F",
-				"panel": {
-					"isOpen": "true",
-					"position": {
-						"X": 2577,
-						"Y": 408
+			"Personnage" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 2227,
+						"Y" : 562
 					}
 				}
 			},
-			"Personnage": {
-				"panelColor": "#BFBFBF",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 2567,
-						"Y": 577
+			"GroupePersonnage" : 
+			{
+				"panelColor" : "#4FA997",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1970,
+						"Y" : 543
 					}
 				}
 			},
-			"GroupePersonnage": {
-				"panelColor": "#4FA997",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 2337,
-						"Y": 798
+			"Classe" : 
+			{
+				"panelColor" : "#8DB3E2",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 2233,
+						"Y" : 404
+					}
+				}
+			},
+			"PersonnageCompetence" : 
+			{
+				"panelColor" : "#D8D8D8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 2794,
+						"Y" : 558
+					}
+				}
+			},
+			"Competence" : 
+			{
+				"panelColor" : "#B2A2C7",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 2731,
+						"Y" : 907
+					}
+				}
+			},
+			"Bateau" : 
+			{
+				"panel" : 
+				{
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 2286,
+						"Y" : 755
+					}
+				}
+			},
+			"Personne" : 
+			{
+				"panelColor" : "#B2A2C7",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 2804,
+						"Y" : 36
+					}
+				}
+			},
+			"PersonnePersonnage" : 
+			{
+				"panelColor" : "#D8D8D8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 2528,
+						"Y" : 335
+					}
+				}
+			},
+			"Langue" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 47,
+						"Y" : 243
+					}
+				}
+			},
+			"CompetenceNiveau" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 3292,
+						"Y" : 689
+					}
+				}
+			},
+			"Role" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 3609,
+						"Y" : 57
+					}
+				}
+			},
+			"ExperienceHistorique" : 
+			{
+				"panelColor" : "#E5B9B7",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 2210,
+						"Y" : 982
+					}
+				}
+			},
+			"Gn" : 
+			{
+				"panelColor" : "#eee",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 2032,
+						"Y" : 79
+					}
+				}
+			},
+			"GnPersonne" : 
+			{
+				"panelColor" : "#eee",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 2528,
+						"Y" : 70
+					}
+				}
+			},
+			"ReservationNourriture" : 
+			{
+				"panelColor" : "#D7E3BC",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 3473,
+						"Y" : 369
+					}
+				}
+			},
+			"User" : 
+			{
+				"panelColor" : "#D8D8D8",
+				"panel" : 
+				{
+					"pathVisible" : true,
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 3293,
+						"Y" : 38
 					}
 				}
 			}
 		},
-		"model": {
-			"scriptMode": "manual",
-			"workspaceLeft": 2111,
-			"workspaceTop": 0,
-			"relationCurve": {
-				"run": true,
-				"mode": 1
+		"model" : 
+		{
+			"scriptMode" : "manual",
+			"workspaceLeft" : 2680,
+			"workspaceTop" : 18,
+			"relationCurve" : 
+			{
+				"run" : true,
+				"mode" : 2
 			},
-			"lastScriptLocation": {
-				"Pays": {
-					"method": "Pays/Pays-methods.js"
+			"lastScriptLocation" : 
+			{
+				"Pays" : 
+				{
+					"method" : "Pays/Pays-methods.js"
+				},
+				"User" : 
+				{
+					"method" : "User/User-methods.js",
+					"events" : "User/User-events.js"
 				}
 			}
 		}
 	},
-	"dataClasses": [
+	"dataClasses" : 
+	[
 		{
-			"name": "Chronologie",
-			"className": "Chronologie",
-			"collectionName": "ChronologieCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "Bateau",
+			"className" : "Bateau",
+			"collectionName" : "BateauCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "date",
-					"kind": "storage",
-					"scope": "public",
-					"type": "date",
-					"simpleDate": false
+					"name" : "vitesse",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
 				},
 				{
-					"name": "evenement",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
+					"name" : "contenance",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
 				},
 				{
-					"name": "pays",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Pays",
-					"path": "Pays"
-				}
-			]
-		},
-		{
-			"name": "Culte",
-			"className": "Culte",
-			"collectionName": "CulteCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
+					"name" : "combat",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
 				},
 				{
-					"name": "couleur",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "symbole",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "pretre",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "ceremonie",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "lieu",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "divers",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "allPaysCulte",
-					"kind": "relatedEntities",
-					"matchColumn": "paysCollection,paysCulteCollection",
-					"scope": "public",
-					"type": "PaysCulteCollection",
-					"reversePath": true,
-					"path": "culte"
-				},
-				{
-					"name": "priereCollection",
-					"kind": "relatedEntities",
-					"matchColumn": "cultePriereCollection",
-					"scope": "public",
-					"type": "CultePriereCollection",
-					"reversePath": true,
-					"path": "culte"
-				},
-				{
-					"name": "sphereCollection",
-					"kind": "relatedEntities",
-					"matchColumn": "culteSphereCollection",
-					"scope": "public",
-					"type": "CulteSphereCollection",
-					"reversePath": true,
-					"path": "culte"
-				},
-				{
-					"name": "sacrificeCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "SacrificeCollection",
-					"reversePath": true,
-					"path": "culte"
-				},
-				{
-					"name": "allPays",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PaysCollection",
-					"path": "allPaysCulte.pays"
-				}
-			]
-		},
-		{
-			"name": "CultePriere",
-			"className": "CultePriere",
-			"collectionName": "CultePriereCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
-				},
-				{
-					"name": "culte",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Culte",
-					"path": "Culte"
-				},
-				{
-					"name": "priere",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Priere",
-					"path": "Priere"
-				}
-			]
-		},
-		{
-			"name": "CulteSphere",
-			"className": "CulteSphere",
-			"collectionName": "CulteSphereCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
-				},
-				{
-					"name": "culte",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Culte",
-					"path": "Culte"
-				},
-				{
-					"name": "sphere",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Sphere",
-					"path": "Sphere"
-				}
-			]
-		},
-		{
-			"name": "Exportation",
-			"className": "Exportation",
-			"collectionName": "ExportationCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
-				},
-				{
-					"name": "pays",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Pays",
-					"path": "Pays"
-				},
-				{
-					"name": "ressource",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Ressource",
-					"path": "Ressource"
-				}
-			]
-		},
-		{
-			"name": "Fief",
-			"className": "Fief",
-			"collectionName": "FiefCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
-				},
-				{
-					"name": "nom",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "dirigeant",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "capitale",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "protection",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "puissance",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "puissance_max",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "impot",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "richesse",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "pays",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Pays",
-					"path": "Pays"
-				},
-				{
-					"name": "productionCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ProductionCollection",
-					"reversePath": true,
-					"path": "fief"
-				}
-			]
-		},
-		{
-			"name": "Groupe",
-			"className": "Groupe",
-			"collectionName": "GroupeCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
-				},
-				{
-					"name": "leader",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Joueur",
-					"path": "Joueur"
-				},
-				{
-					"name": "pays",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Pays",
-					"path": "Pays"
-				},
-				{
-					"name": "personnageCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PersonnageCollection",
-					"reversePath": true,
-					"path": "groupe"
-				},
-				{
-					"name": "groupePersonnageCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "GroupePersonnageCollection",
-					"reversePath": true,
-					"path": "groupe"
-				}
-			]
-		},
-		{
-			"name": "GroupePersonnage",
-			"className": "GroupePersonnage",
-			"collectionName": "GroupePersonnageCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
-				},
-				{
-					"name": "groupe",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Groupe",
-					"path": "Groupe"
-				},
-				{
-					"name": "personnage",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Personnage",
-					"path": "Personnage"
-				}
-			]
-		},
-		{
-			"name": "Importation",
-			"className": "Importation",
-			"collectionName": "ImportationCollection",
-			"matchTable": "Importation",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
-				},
-				{
-					"name": "pays",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Pays",
-					"path": "Pays"
-				},
-				{
-					"name": "ressource",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Ressource",
-					"path": "Ressource"
-				}
-			]
-		},
-		{
-			"name": "Joueur",
-			"className": "Joueur",
-			"collectionName": "JoueurCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
-				},
-				{
-					"name": "groupeCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "GroupeCollection",
-					"reversePath": true,
-					"path": "leader"
-				},
-				{
-					"name": "personnageCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PersonnageCollection",
-					"reversePath": true,
-					"path": "joueur"
-				}
-			]
-		},
-		{
-			"name": "Pays",
-			"className": "Pays",
-			"collectionName": "PaysCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
-				},
-				{
-					"name": "nom",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "description",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "histoire",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "chronologieCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ChronologieCollection",
-					"reversePath": true,
-					"path": "pays"
-				},
-				{
-					"name": "fiefCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "FiefCollection",
-					"reversePath": true,
-					"path": "pays"
-				},
-				{
-					"name": "importationCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ImportationCollection",
-					"reversePath": true,
-					"path": "pays"
-				},
-				{
-					"name": "exportationCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ExportationCollection",
-					"reversePath": true,
-					"path": "pays"
-				},
-				{
-					"name": "paysCulte",
-					"kind": "relatedEntities",
-					"matchColumn": "allPaysCulte,paysCulteCollection",
-					"scope": "public",
-					"type": "PaysCulteCollection",
-					"reversePath": true,
-					"path": "pays"
-				},
-				{
-					"name": "cultes",
-					"kind": "relatedEntities",
-					"matchColumn": "allCulte",
-					"scope": "public",
-					"type": "CulteCollection",
-					"path": "paysCulte.culte"
-				},
-				{
-					"name": "ressourcesImportation",
-					"kind": "relatedEntities",
-					"matchColumn": "allImportation",
-					"scope": "public",
-					"type": "RessourceCollection",
-					"path": "importationCollection.ressource"
-				},
-				{
-					"name": "ressourcesExportation",
-					"kind": "relatedEntities",
-					"matchColumn": "allExportation",
-					"scope": "public",
-					"type": "RessourceCollection",
-					"path": "exportationCollection.ressource"
-				},
-				{
-					"name": "groupeCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "GroupeCollection",
-					"reversePath": true,
-					"path": "pays"
+					"name" : "resistance",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
 				}
 			],
-			"methods": [
+			"key" : 
+			[
 				{
-					"name": "addCulte",
-					"applyTo": "entity",
-					"scope": "public",
-					"from": "$mainModel.Pays.entityMethods.addCulte",
-					"userDefined": true
-				},
-				{
-					"name": "addExportation",
-					"applyTo": "entity",
-					"scope": "public",
-					"from": "$mainModel.Pays.entityMethods.addExportation",
-					"userDefined": true
-				},
-				{
-					"name": "addImportation",
-					"applyTo": "entity",
-					"scope": "public",
-					"from": "$mainModel.Pays.entityMethods.addImportation",
-					"userDefined": true
-				},
-				{
-					"name": "removeCulte",
-					"applyTo": "entity",
-					"scope": "public",
-					"from": "$mainModel.Pays.entityMethods.removeCulte",
-					"userDefined": true
-				},
-				{
-					"name": "removeExportation",
-					"applyTo": "entity",
-					"scope": "public",
-					"from": "$mainModel.Pays.entityMethods.removeExportation",
-					"userDefined": true
-				},
-				{
-					"name": "removeImportation",
-					"applyTo": "entity",
-					"scope": "public",
-					"from": "$mainModel.Pays.entityMethods.removeImportation",
-					"userDefined": true
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "PaysCulte",
-			"className": "PaysCulte",
-			"collectionName": "PaysCulteCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "Chronologie",
+			"className" : "Chronologie",
+			"collectionName" : "ChronologieCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "pays",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Pays",
-					"path": "Pays"
+					"name" : "date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
 				},
 				{
-					"name": "culte",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Culte",
-					"path": "Culte"
+					"name" : "evenement",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "pays",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Pays",
+					"path" : "Pays"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "Personnage",
-			"className": "Personnage",
-			"collectionName": "PersonnageCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "Classe",
+			"className" : "Classe",
+			"collectionName" : "ClasseCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "groupe",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Groupe",
-					"path": "Groupe"
-				},
+					"name" : "personnageCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PersonnageCollection",
+					"reversePath" : true,
+					"path" : "classe"
+				}
+			],
+			"key" : 
+			[
 				{
-					"name": "groupePersonnageCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "GroupePersonnageCollection",
-					"reversePath": true,
-					"path": "personnage"
-				},
-				{
-					"name": "joueur",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Joueur",
-					"path": "Joueur"
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "Priere",
-			"className": "Priere",
-			"collectionName": "PriereCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "Competence",
+			"className" : "Competence",
+			"collectionName" : "CompetencesCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "niveau",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "participant",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
+					"name" : "description",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "description",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
+					"name" : "competenceNiveauCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "DCompetenceCollection",
+					"reversePath" : true,
+					"path" : "competence"
+				}
+			],
+			"key" : 
+			[
 				{
-					"name": "annonce",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "culteCollection",
-					"kind": "relatedEntities",
-					"matchColumn": "cultePriereCollection",
-					"scope": "public",
-					"type": "CultePriereCollection",
-					"reversePath": true,
-					"path": "priere"
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "Production",
-			"className": "Production",
-			"collectionName": "ProductionCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "CompetenceNiveau",
+			"className" : "CompetenceNiveau",
+			"collectionName" : "DCompetenceCollection",
+			"matchTable" : "CompetenceNiveau",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "fief",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Fief",
-					"path": "Fief"
+					"name" : "competence",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Competence",
+					"path" : "Competence"
 				},
 				{
-					"name": "ressource",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Ressource",
-					"path": "Ressource"
+					"name" : "niveau",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "personnageCompetenceCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PersonnageCompetenceCollection",
+					"reversePath" : true,
+					"path" : "competence"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "Ressource",
-			"className": "Ressource",
-			"collectionName": "RessourceCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "Culte",
+			"className" : "Culte",
+			"collectionName" : "CulteCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "nom",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
+					"name" : "couleur",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "rarete",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
+					"name" : "symbole",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "importationCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ImportationCollection",
-					"reversePath": true,
-					"path": "ressource"
+					"name" : "pretre",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "exportationCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ExportationCollection",
-					"reversePath": true,
-					"path": "ressource"
+					"name" : "ceremonie",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "sacrificeCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "SacrificeCollection",
-					"reversePath": true,
-					"path": "ressource"
+					"name" : "lieu",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "productionCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ProductionCollection",
-					"reversePath": true,
-					"path": "ressource"
+					"name" : "divers",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "allImportation",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PaysCollection",
-					"path": "importationCollection.pays"
+					"name" : "allPaysCulte",
+					"kind" : "relatedEntities",
+					"matchColumn" : "paysCollection,paysCulteCollection",
+					"scope" : "public",
+					"type" : "PaysCulteCollection",
+					"reversePath" : true,
+					"path" : "culte"
 				},
 				{
-					"name": "allExportation",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PaysCollection",
-					"path": "exportationCollection.pays"
+					"name" : "priereCollection",
+					"kind" : "relatedEntities",
+					"matchColumn" : "cultePriereCollection",
+					"scope" : "public",
+					"type" : "CultePriereCollection",
+					"reversePath" : true,
+					"path" : "culte"
+				},
+				{
+					"name" : "sphereCollection",
+					"kind" : "relatedEntities",
+					"matchColumn" : "culteSphereCollection",
+					"scope" : "public",
+					"type" : "CulteSphereCollection",
+					"reversePath" : true,
+					"path" : "culte"
+				},
+				{
+					"name" : "sacrificeCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "SacrificeCollection",
+					"reversePath" : true,
+					"path" : "culte"
+				},
+				{
+					"name" : "allPays",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PaysCollection",
+					"path" : "allPaysCulte.pays"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "Sacrifice",
-			"className": "Sacrifice",
-			"collectionName": "SacrificeCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "CultePriere",
+			"className" : "CultePriere",
+			"collectionName" : "CultePriereCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "culte",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Culte",
-					"path": "Culte"
+					"name" : "culte",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Culte",
+					"path" : "Culte"
 				},
 				{
-					"name": "ressource",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Ressource",
-					"path": "Ressource"
+					"name" : "priere",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Priere",
+					"path" : "Priere"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "Sphere",
-			"className": "Sphere",
-			"collectionName": "SphereCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "CulteSphere",
+			"className" : "CulteSphere",
+			"collectionName" : "CulteSphereCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "nom",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
+					"name" : "culte",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Culte",
+					"path" : "Culte"
 				},
 				{
-					"name": "description",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
+					"name" : "sphere",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Sphere",
+					"path" : "Sphere"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "ExperienceHistorique",
+			"className" : "ExperienceHistorique",
+			"collectionName" : "ExperienceHistoriqueCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "culteCollection",
-					"kind": "relatedEntities",
-					"matchColumn": "culteSphereCollection",
-					"scope": "public",
-					"type": "CulteSphereCollection",
-					"reversePath": true,
-					"path": "sphere"
+					"name" : "personnage",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Personnage",
+					"path" : "Personnage"
+				},
+				{
+					"name" : "date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "gain",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "raison",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Exportation",
+			"className" : "Exportation",
+			"collectionName" : "ExportationCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "pays",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Pays",
+					"path" : "Pays"
+				},
+				{
+					"name" : "ressource",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Ressource",
+					"path" : "Ressource"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Fief",
+			"className" : "Fief",
+			"collectionName" : "FiefCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "dirigeant",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "capitale",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "protection",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "puissance",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "puissance_max",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "impot",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "richesse",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "pays",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Pays",
+					"path" : "Pays"
+				},
+				{
+					"name" : "productionCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ProductionCollection",
+					"reversePath" : true,
+					"path" : "fief"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Gn",
+			"className" : "Gn",
+			"collectionName" : "GnCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "dateDebut",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "dateFin",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "gnPersonneCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "GnPersonneCollection",
+					"reversePath" : true,
+					"path" : "gn"
+				},
+				{
+					"name" : "reservationNourritureCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ReservationNourritureCollection",
+					"reversePath" : true,
+					"path" : "gn"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "GnPersonne",
+			"className" : "GnPersonne",
+			"collectionName" : "GnPersonneCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "gn",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Gn",
+					"path" : "Gn"
+				},
+				{
+					"name" : "present",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "assurance",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "personne",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Personne",
+					"path" : "Personne"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Groupe",
+			"className" : "Groupe",
+			"collectionName" : "GroupeCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "pays",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Pays",
+					"path" : "Pays"
+				},
+				{
+					"name" : "jeuMaritime",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "jeuStrategique",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "groupePersonnageCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "GroupePersonnageCollection",
+					"reversePath" : true,
+					"path" : "groupe"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "GroupePersonnage",
+			"className" : "GroupePersonnage",
+			"collectionName" : "GroupePersonnageCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "groupe",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Groupe",
+					"path" : "Groupe"
+				},
+				{
+					"name" : "personnage",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Personnage",
+					"path" : "Personnage"
+				},
+				{
+					"name" : "actif",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Importation",
+			"className" : "Importation",
+			"collectionName" : "ImportationCollection",
+			"matchTable" : "Importation",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "pays",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Pays",
+					"path" : "Pays"
+				},
+				{
+					"name" : "ressource",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Ressource",
+					"path" : "Ressource"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Langue",
+			"className" : "Langue",
+			"collectionName" : "LangueCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "paysCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PaysCollection",
+					"reversePath" : true,
+					"path" : "langage"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Pays",
+			"className" : "Pays",
+			"collectionName" : "PaysCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "description",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "histoire",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "langage",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Langue",
+					"path" : "Langue"
+				},
+				{
+					"name" : "chronologieCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ChronologieCollection",
+					"reversePath" : true,
+					"path" : "pays"
+				},
+				{
+					"name" : "fiefCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "FiefCollection",
+					"reversePath" : true,
+					"path" : "pays"
+				},
+				{
+					"name" : "importationCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ImportationCollection",
+					"reversePath" : true,
+					"path" : "pays"
+				},
+				{
+					"name" : "exportationCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ExportationCollection",
+					"reversePath" : true,
+					"path" : "pays"
+				},
+				{
+					"name" : "paysCulte",
+					"kind" : "relatedEntities",
+					"matchColumn" : "allPaysCulte,paysCulteCollection",
+					"scope" : "public",
+					"type" : "PaysCulteCollection",
+					"reversePath" : true,
+					"path" : "pays"
+				},
+				{
+					"name" : "cultes",
+					"kind" : "relatedEntities",
+					"matchColumn" : "allCulte",
+					"scope" : "public",
+					"type" : "CulteCollection",
+					"path" : "paysCulte.culte"
+				},
+				{
+					"name" : "ressourcesImportation",
+					"kind" : "relatedEntities",
+					"matchColumn" : "allImportation",
+					"scope" : "public",
+					"type" : "RessourceCollection",
+					"path" : "importationCollection.ressource"
+				},
+				{
+					"name" : "ressourcesExportation",
+					"kind" : "relatedEntities",
+					"matchColumn" : "allExportation",
+					"scope" : "public",
+					"type" : "RessourceCollection",
+					"path" : "exportationCollection.ressource"
+				},
+				{
+					"name" : "groupeCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "GroupeCollection",
+					"reversePath" : true,
+					"path" : "pays"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "PaysCulte",
+			"className" : "PaysCulte",
+			"collectionName" : "PaysCulteCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "pays",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Pays",
+					"path" : "Pays"
+				},
+				{
+					"name" : "culte",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Culte",
+					"path" : "Culte"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Personnage",
+			"className" : "Personnage",
+			"collectionName" : "PersonnageCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "classe",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Classe",
+					"path" : "Classe"
+				},
+				{
+					"name" : "age",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "experience",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "groupePersonnageCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "GroupePersonnageCollection",
+					"reversePath" : true,
+					"path" : "personnage"
+				},
+				{
+					"name" : "personnageCompetenceCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PersonnageCompetenceCollection",
+					"reversePath" : true,
+					"path" : "personnage"
+				},
+				{
+					"name" : "experienceHistoriqueCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ExperienceHistoriqueCollection",
+					"reversePath" : true,
+					"path" : "personnage"
+				},
+				{
+					"name" : "personnePersonnageCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PersonnePersonnageCollection",
+					"reversePath" : true,
+					"path" : "personnage"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "PersonnageCompetence",
+			"className" : "PersonnageCompetence",
+			"collectionName" : "PersonnageCompetenceCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "personnage",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Personnage",
+					"path" : "Personnage"
+				},
+				{
+					"name" : "competence",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "CompetenceNiveau",
+					"path" : "CompetenceNiveau"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Personne",
+			"className" : "Personne",
+			"collectionName" : "PersonneCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"matchColumn" : "Nom",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "prenom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "telephone",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "email",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "sante",
+					"kind" : "storage",
+					"matchColumn" : "santee",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "dateValidation",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "assuranceFedeGn",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "gnPersonneCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "GnPersonneCollection",
+					"reversePath" : true,
+					"path" : "personne"
+				},
+				{
+					"name" : "personnePersonnageCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PersonnePersonnageCollection",
+					"reversePath" : true,
+					"path" : "personne"
+				},
+				{
+					"name" : "userCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "UserCollection",
+					"reversePath" : true,
+					"path" : "personne"
+				},
+				{
+					"name" : "reservationNourritureCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ReservationNourritureCollection",
+					"reversePath" : true,
+					"path" : "personne"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "PersonnePersonnage",
+			"className" : "PersonnePersonnage",
+			"collectionName" : "PersonnePersonnageCollection",
+			"matchTable" : "JoueurPersonnage",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "personne",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Personne",
+					"path" : "Personne"
+				},
+				{
+					"name" : "personnage",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Personnage",
+					"path" : "Personnage"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Priere",
+			"className" : "Priere",
+			"collectionName" : "PriereCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "niveau",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "participant",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "description",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "annonce",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "culteCollection",
+					"kind" : "relatedEntities",
+					"matchColumn" : "cultePriereCollection",
+					"scope" : "public",
+					"type" : "CultePriereCollection",
+					"reversePath" : true,
+					"path" : "priere"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Production",
+			"className" : "Production",
+			"collectionName" : "ProductionCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "fief",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Fief",
+					"path" : "Fief"
+				},
+				{
+					"name" : "ressource",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Ressource",
+					"path" : "Ressource"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "ReservationNourriture",
+			"className" : "ReservationNourriture",
+			"collectionName" : "ReservationNourritureCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "gn",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Gn",
+					"path" : "Gn"
+				},
+				{
+					"name" : "personne",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Personne",
+					"path" : "Personne"
+				},
+				{
+					"name" : "dateReservation",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "repas",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Ressource",
+			"className" : "Ressource",
+			"collectionName" : "RessourceCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "rarete",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "importationCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ImportationCollection",
+					"reversePath" : true,
+					"path" : "ressource"
+				},
+				{
+					"name" : "exportationCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ExportationCollection",
+					"reversePath" : true,
+					"path" : "ressource"
+				},
+				{
+					"name" : "sacrificeCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "SacrificeCollection",
+					"reversePath" : true,
+					"path" : "ressource"
+				},
+				{
+					"name" : "productionCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ProductionCollection",
+					"reversePath" : true,
+					"path" : "ressource"
+				},
+				{
+					"name" : "allImportation",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PaysCollection",
+					"path" : "importationCollection.pays"
+				},
+				{
+					"name" : "allExportation",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PaysCollection",
+					"path" : "exportationCollection.pays"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Role",
+			"className" : "Role",
+			"collectionName" : "RoleCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "description",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "userCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "UserCollection",
+					"reversePath" : true,
+					"path" : "role"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Sacrifice",
+			"className" : "Sacrifice",
+			"collectionName" : "SacrificeCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "culte",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Culte",
+					"path" : "Culte"
+				},
+				{
+					"name" : "ressource",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Ressource",
+					"path" : "Ressource"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Sphere",
+			"className" : "Sphere",
+			"collectionName" : "SphereCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "description",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "culteCollection",
+					"kind" : "relatedEntities",
+					"matchColumn" : "culteSphereCollection",
+					"scope" : "public",
+					"type" : "CulteSphereCollection",
+					"reversePath" : true,
+					"path" : "sphere"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "User",
+			"className" : "User",
+			"collectionName" : "UserCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "username",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "personne",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Personne",
+					"path" : "Personne"
+				},
+				{
+					"name" : "role",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Role",
+					"path" : "Role"
+				},
+				{
+					"name" : "dateCreation",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "dateConnection",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "HA1Key",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"methods" : 
+			[
+				{
+					"name" : "validatePassword",
+					"applyTo" : "entity",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.User.entityMethods.validatePassword",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		}
